@@ -27,7 +27,7 @@ void Person_destroy(struct Person *who)
 {
   assert(who != NULL);
 
-  free(who->name);
+//  free(who->name);
   free(who);
 }
 
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
   printf("his height at memory location: %p\n", &joe->height);
   printf("his weight at memory location: %p\n", &joe->weight);
   printf("a persons size: %d\n", sizeof(struct Person));
-//  Person_print(joe);
+  Person_print(joe);
 
   printf("Joes name again: %p\n", &joe->name);
   printf("Joes adr again: %p\n", joe);

@@ -18,6 +18,8 @@ clean:
 	rm -f ex15
 	rm -f ex16
 	rm -f ex16b
+	rm -f ex17
+	rm -f first.db
 
 all:
 	make ex1
@@ -37,3 +39,4 @@ all:
 	make ex15
 	make ex16
 	make ex16b
+	make ex17
